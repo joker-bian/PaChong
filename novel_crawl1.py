@@ -91,8 +91,14 @@ author = main_html.xpath('/html/body/div[4]/div[1]/div/div/div[2]/div[1]/div/p[1
 update = main_html.xpath('/html/body/div[4]/div[1]/div/div/div[2]/div[1]/div/p[5]/text()')[0]
 introduction = main_html.xpath('/html/body/div[4]/div[1]/div/div/div[2]/div[2]/text()')[0]
 
-# 调试期间仅爬取六个页面
-maxPages = 6
+# print(bookTitle)
+# print(author)
+# print(update)
+# print(introduction)
+
+
+# 调试期间仅爬取4个页面
+maxPages = 4
 cnt = 0
 
 # 记录上一章节的标题
